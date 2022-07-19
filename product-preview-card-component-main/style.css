@@ -1,0 +1,83 @@
+body { 
+    overflow: hidden;
+    height: 100%;
+    background-color: hsl(30, 38%, 92%)
+    
+}
+
+#box {
+    height: 500px;
+    width: 700px;
+    background: #ffffff;
+    border-radius: 15px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+  }
+
+  #photo {
+    position: relative;
+    height: 500px;
+    width: 50%;
+    border-radius: 15px 0px 0px 15px;
+  }
+  
+    #text {
+    position: relative;
+    left: 55%;
+    top: -450px;
+  }
+
+    #perfume {
+        font-family: 'Montserrat', sans-serif;
+        color: hsl(228, 12%, 48%);
+        letter-spacing:3px ;
+    }
+
+    #name {
+        font-family: 'Fraunces', serif;
+        font-size: 30px;
+        line-height: 30px;
+        color: hsl(212, 21%, 14%);
+
+    }
+
+    #description {
+        font-family: 'Montserrat', sans-serif;
+        line-height: 25px;
+        color: hsl(228, 12%, 48%);
+    }
+
+    #price1 {
+        font-family: 'Fraunces', serif;
+        font-size: 30px;
+        color: hsl(158, 36%, 37%);
+    }
+    #price2 {
+        font-family: 'Montserrat', sans-serif;
+        position: relative;
+        left: 20px;
+        top: -6px;
+        color: hsl(228, 12%, 48%);
+    }
+
+    #button {
+        height: 60px;
+        width: 280px;
+        background: hsl(158, 36%, 37%);
+        border-radius: 15px;
+        top: 40px ;
+        left: 20%;
+        transform: translate(-50%, -50%);
+        position: relative;
+        color: #ffffff;
+        font-family: 'Montserrat', sans-serif;
+        cursor:pointer
+    }
+
+    #cartext {
+        position: relative;
+        
+        
+    }
